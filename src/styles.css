@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: rebeccapurple;
+}
+
+#content {
+  height: 90vh;
+  border: 2px solid pink; 
+  display: flex;
+  flex-direction: column; /*used to make the 2 divs in it sit on top eachother*/
+  align-items: center;
+  justify-content: flex-start; /*moves div to top of page*/
+  margin: 5px; /* used here to move the boxes close to eachother. */
+  padding: 5px; 
+}
+
+
+#topDiv, #midDiv, #locaDiv {
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid blue;
+  border-radius: 15px;
+}
+
+#topDiv {
+  margin-top: 20px;
+}
+
+
+#midDiv, #locaDiv {
+  margin-top: 20px;
+}
+
